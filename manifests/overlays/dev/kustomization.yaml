@@ -1,10 +1,7 @@
-namePrefix: dev-
-
-commonLabels:
-  environment: dev
-
 resources:
 - ../../base
-
-patches:
+namePrefix: dev-
+commonLabels:
+  environment: dev
+patchesStrategicMerge:
 - ingress.yaml

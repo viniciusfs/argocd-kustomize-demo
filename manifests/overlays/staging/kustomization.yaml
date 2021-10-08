@@ -1,11 +1,8 @@
-namePrefix: stg-
-
-commonLabels:
-  environment: staging
-
 resources:
 - ../../base
-
-patches:
+namePrefix: stg-
+commonLabels:
+  environment: staging
+patchesStrategicMerge:
 - horizontalpodautoscaler.yaml
 - ingress.yaml
