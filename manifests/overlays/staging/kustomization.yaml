@@ -1,7 +1,9 @@
 namePrefix: stg-
+
 commonLabels:
   environment: staging
-bases:
+
+resources:
 - ../../base
 
 patches:
