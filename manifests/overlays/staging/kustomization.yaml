@@ -6,3 +6,4 @@ commonLabels:
 patchesStrategicMerge:
 - horizontalpodautoscaler.yaml
 - ingress.yaml
+- deployment.yaml
