@@ -1,0 +1,8 @@
+namePrefix: stg-
+commonLabels:
+  environment: staging
+bases:
+- ../../base
+
+patches:
+- horizontalpodautoscaler.yaml

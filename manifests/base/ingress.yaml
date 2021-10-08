@@ -1,0 +1,19 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: myapp
+  annotations:
+    alb.ingress.kubernetes.io/target-type: ip
+spec:
+  rules:
+    - host: myapp.dev.systemlake.m4u.team
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: myapp
+                port:
+                  number: 80
