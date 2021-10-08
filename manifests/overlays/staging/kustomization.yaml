@@ -6,3 +6,4 @@ bases:
 
 patches:
 - horizontalpodautoscaler.yaml
+- ingress.yaml

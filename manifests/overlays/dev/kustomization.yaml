@@ -3,3 +3,6 @@ commonLabels:
   environment: dev
 bases:
 - ../../base
+
+patches:
+- ingress.yaml

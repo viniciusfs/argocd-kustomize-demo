@@ -8,8 +8,7 @@ metadata:
 spec:
   ingressClassName: ingress-internal
   rules:
-    - host: myapp.dev.systemlake.m4u.team
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
