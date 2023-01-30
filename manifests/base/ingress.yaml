@@ -6,7 +6,7 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/target-type: ip
 spec:
-  ingressClassName: ingress-internal
+  ingressClassName: ingress-internal-demo
   rules:
     - http:
         paths:
