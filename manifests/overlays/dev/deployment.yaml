@@ -1,0 +1,8 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+spec:
+  template:
+    spec:
+      containers:
+      - image: gcr.io/google_containers/echoserver:1.7.0
