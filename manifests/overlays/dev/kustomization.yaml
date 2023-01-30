@@ -7,3 +7,4 @@ commonLabels:
   environment: dev
 patchesStrategicMerge:
 - ingress.yaml
+- deployment.yaml
