@@ -8,6 +8,7 @@ spec:
     spec:
       containers:
       - image: gcr.io/google_containers/echoserver:1.7
+        name: myapp
         resources:
           requests:
             memory: "32Mi"
